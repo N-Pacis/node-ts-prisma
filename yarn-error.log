@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init --y
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\user\Downloads\WINDOWS.X64_193000_db_home\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\PHP8;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\spring\bin;C:\Program Files\spring\lib;C:\Program Files\Maven\bin;C:\Users\user\Downloads\ngrok-v3-stable-windows-amd64;C:\Users\user\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;E:\mongo-shell\bin;C:\Users\user\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\user\AppData\Roaming\Composer\vendor\bin;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\PostgreSQL\14\lib;C:\Users\user\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.2\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137143:13)
+      at Interface.emit (node:events:520:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:520:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:520:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
